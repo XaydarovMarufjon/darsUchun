@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <h1> h1 text </h1>
+    <h1> h1 text </h1> 
+    <div class="myclass"> Lorem, ipsum dolor.</div>
+    <div class="myclass"> Lorem, ipsum dolor.</div>
+    <div id="myid">Lorem ipsum dolor sit amet.</div> -->
+
+<!-- 
+     <h2 onclick="del()">Ism: <span class="ism"></span></h2>
+     <h2 onclick="delet()">yosh: <span class="yosh"></span></h2>
+
+     <h1 onclick="copy()">Copy</h1>
+      <hr>
+     <h1>Name : <mark class="a1">   </mark></h1>
+     <h1>Age : <mark class="a2">  </mark></h1>
+     <button onclick="set()">ism yoz</button>
+     <button onclick="get()">yosh yoz</button>
+    -->
+
+    <!-- <h1 class="ism"></h1> -->
+
+  <h1 class="h1"></h1>
+  <button onclick="set()">set</button>
+
+
+    <div class="boxes">
+       <div class="box">
+        <div class="dum" onclick="set()"></div>
+        <h2 class="a1" onclick="del()"></h2>
+      </div>
+      <div class="box">
+        <div class="dum" onclick="set1()"></div>
+        <h2 class="a2" onclick="del1()"></h2>
+      </div>
+      <div class="box">
+        <div class="dum" onclick="set2()"></div>
+        <h2 class="a3" onclick="del2()"></h2>
+      </div>
+      <div class="box">
+        <div class="dum" onclick="set3()"></div>
+        <h2 class="a4" onclick="del3()"></h2>
+      </div>
+    </div>
+
+
+
+    <style>
+        .boxes{
+            border: 2px solid black;
+            padding: 20px;
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .box{
+            width: 25%;
+        }
+        .dum{
+            width: 80%;
+            height: 100px;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+    </style>
+
+
+    <script src="./dom.js"></script>
+</body>
+</html>

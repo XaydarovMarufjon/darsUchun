@@ -1,0 +1,45 @@
+@media (min-width: 1281px ) and {
+    /* PC */ 
+}
+@media (min-width: 1024px ) and (max-width:1280px){ 
+     /* laptop */
+}
+@media (min-width: 768px ) and (max-width: 1023px ) {
+   /* tablet */
+}
+@media (min-width: 481px ) and ( max-width:767px) {
+    /* phone big */
+    
+    .box{
+        width: 48%;
+    }
+    .container{
+        width: 90%;
+    }
+
+}
+@media (min-width: 320px ) and (max-width:480px) {
+    /* phone */
+    .boxes{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+
+    }
+    .container{
+        width: 95%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
